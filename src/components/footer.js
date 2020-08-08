@@ -2,7 +2,7 @@ import React from "react"
 
 const Footer = () => (
     <footer style={{
-        margin: `40px 0`,
+        margin: `60px 0 40px 0`,
         fontSize: 14
     }}>
         <a href="https://twitter.com/aarondunphy" target="_blank">Twitter</a>

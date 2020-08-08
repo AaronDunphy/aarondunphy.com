@@ -7,25 +7,19 @@ import SEO from "../components/seo"
 const IndexPage = (data) => {
 
     const { nodes } = data.data.allMarkdownRemark
-    console.log('nodes', nodes)
-    const posts = nodes.map((node, index) => {
-        return (
-            <div key={index}>
-                <h3 style={{margin: 0}}>
-                    <Link
-                        to={ node.frontmatter.slug }
-                        style={{
-                            color: "black",
-                        }}
-                    >
-                        { node.frontmatter.title }
-                    </Link>
-                </h3>
-                <p>{ node.frontmatter.description }</p>
+    const posts = nodes.map((node, index) => (
+        <div key={index} style={{marginBottom: 40}}>
+            <h3 style={{marginBottom: 10}}>
+                <Link to={ node.frontmatter.slug }>
+                    { node.frontmatter.title }
+                </Link>
+            </h3>
+            <p style={{margin: 0}}><small>{ node.frontmatter.date }</small></p>
+            <p>{ node.frontmatter.description }</p>
 
-            </div>
-        )
-    })
+        </div>
+    ))
+    
     return (
         <Layout>
             <SEO title="Home" />
@@ -52,6 +46,7 @@ export const pageQuery = graphql`
             nodes {
                 frontmatter {
                     title
+                    date(formatString: "DD MMMM YYYY")
                     description
                     slug
                 }
