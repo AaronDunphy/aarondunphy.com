@@ -7,9 +7,11 @@ const Footer = () => (
     }}>
         <a href="https://twitter.com/aarondunphy" target="_blank">Twitter</a>
         <span style={{ padding: `0 5px` }}>•</span>
-        <a href="https://instagram.com/aarondunphy" target="_blank">Instagram</a>
+        <a href="https://github.com/aarondunphy" target="_blank">GitHub</a>
         <span style={{ padding: `0 5px` }}>•</span>
-        <a href="https://linkedin.com//in/aarondunphy" target="_blank">LinkedIn</a>
+        <a href="https://linkedin.com/in/aarondunphy" target="_blank">LinkedIn</a>
+        <span style={{ padding: `0 5px` }}>•</span>
+        <a href="https://instagram.com/aarondunphy" target="_blank">Instagram</a>
     </footer>
 )
 

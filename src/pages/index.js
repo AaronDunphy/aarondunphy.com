@@ -37,7 +37,9 @@ const IndexPage = (data) => {
                 Full Stack Developer based in Leigh-on-Sea, UK.
             </h1>
             <p>Laravel &amp; JavaScript. Powered by ☕️</p>
-            { posts }
+            <div style={{marginTop: 60}}>
+                { posts }
+            </div>
         </Layout>
     )
 }

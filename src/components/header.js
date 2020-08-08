@@ -8,7 +8,7 @@ const Header = () => (
         fontSize: 24,
         fontWeight: 700,
     }}>
-        Aaron Dunphy
+        &#x3c; Home
     </Link>
   </header>
 )
