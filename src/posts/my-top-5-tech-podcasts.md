@@ -11,7 +11,7 @@ Hosted by [Wes Bos](https://wesbos.com/) and [Scott Tolinski](https://www.scottt
 
 ## [The Laravel Podcast](https://laravelpodcast.com/)
 
-Hosted by [Matt Staufer](https://mattstauffer.com/). The Laravel Podcast is amazing if you want to hear from some really interesting people from the Laravel community such as Jeffrey Way, Marcel Pociot and Jonathan Reinink.
+Hosted by [Matt Stauffer](https://mattstauffer.com/). The Laravel Podcast is amazing if you want to hear from some really interesting people from the Laravel community such as Jeffrey Way, Marcel Pociot and Jonathan Reinink.
 
 ## [Twenty Percent Time](https://twentypercenttime.simplecast.com/)
 
