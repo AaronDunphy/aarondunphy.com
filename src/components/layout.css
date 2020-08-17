@@ -374,6 +374,10 @@ p {
   padding-top: 0;
   margin-bottom: 1.45rem;
 }
+p a{
+    color: #219ad4;
+    font-weight: 700;
+}
 figure {
   margin-left: 0;
   margin-right: 0;
