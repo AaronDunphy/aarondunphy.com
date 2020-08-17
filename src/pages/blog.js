@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Header from "../components/header"
 
-const IndexPage = (data) => {
+const BlogPage = (data) => {
 
     const { nodes } = data.data.allMarkdownRemark
     const posts = nodes.map((node, index) => (
@@ -25,16 +25,7 @@ const IndexPage = (data) => {
         <Layout>
             <SEO title="Home" />
             <Header />
-            <div style={{textAlign: 'center'}}>
-                <p style={{fontSize: 40, fontWeight: 700, marginBottom: 20}}>Hey, I'm Aaron 👋</p>
-                <h1 style={{
-                    margin: `0 0 5px 0`,
-                    fontSize: 24
-                }}>
-                    Full Stack Developer based in Leigh-on-Sea, UK.
-                </h1>
-                <p>Laravel &amp; JavaScript. Powered by ☕️</p>
-            </div>
+            <h1>Blog</h1>
             <div style={{marginTop: 60}}>
                 { posts }
             </div>
@@ -42,7 +33,7 @@ const IndexPage = (data) => {
     )
 }
 
-export default IndexPage
+export default BlogPage
 
 export const pageQuery = graphql`
     query {
