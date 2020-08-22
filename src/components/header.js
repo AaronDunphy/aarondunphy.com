@@ -1,61 +1,31 @@
 import { Link } from "gatsby"
 import React from "react"
+import NavHeader from "../components/styles/navHeader"
 
 const Header = () => (
-<header style={{
-    margin: `0 0 60px 0`,
-    display: 'flex',
-    justifyContent: 'space-between'
-}}>
-    <div>
-        <Link to="/" style={{
-            textDecoration: `none`,
-            fontSize: 28,
-            fontWeight: 700,
-        }}>
+<NavHeader>
+    <div className="logo">
+        <Link to="/">
             Aaron Dunphy
         </Link>
     </div>
     <nav>
-        <ul style={{
-            listStyle: 'none',
-            margin: 0
-        }}>
-            <li style={{ display: 'inline-block', marginRight: 20}}>
-                <Link to="/" style={{
-                    textDecoration: `none`,
-                    fontSize: 18,
-                }}>
-                    Home
-                </Link>
+        <ul>
+            <li>
+                <Link to="/">Home</Link>
             </li>
-            <li style={{ display: 'inline-block', marginRight: 20}}>
-                <Link to="/about" style={{
-                    textDecoration: `none`,
-                    fontSize: 18,
-                }}>
-                    About
-                </Link>
+            <li>
+                <Link to="/about">About</Link>
             </li>
-            <li style={{ display: 'inline-block', marginRight: 20}}>
-                <Link to="/blog" style={{
-                    textDecoration: `none`,
-                    fontSize: 18,
-                }}>
-                    Blog
-                </Link>
+            <li>
+                <Link to="/blog">Blog</Link>
             </li>
-            <li style={{ display: 'inline-block', marginRight: 0}}>
-                <Link to="/uses" style={{
-                    textDecoration: `none`,
-                    fontSize: 18,
-                }}>
-                    Uses
-                </Link>
+            <li>
+                <Link to="/uses">Uses</Link>
             </li>
         </ul>
     </nav>
-</header>
+</NavHeader>
 )
 
 export default Header
