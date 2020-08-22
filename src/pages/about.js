@@ -13,7 +13,7 @@ const AboutPage = (props) => {
         query {
         placeholderImage: file(relativePath: { eq: "aarondunphy.png" }) {
             childImageSharp {
-            fluid(maxWidth: 200) {
+            fluid(maxWidth: 300) {
                 ...GatsbyImageSharpFluid
             }
             }

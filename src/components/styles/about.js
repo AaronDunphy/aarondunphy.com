@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 const About = styled.section`
     .profileImage {
-        max-width: 200px;
+        max-width: 300px;
         width: 100%;
         float: left;
         margin: 0px 20px 20px 0px;

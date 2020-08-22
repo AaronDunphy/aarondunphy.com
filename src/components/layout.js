@@ -7,20 +7,15 @@
 
 import React from "react"
 import Footer from "./footer"
+import Container from "./styles/container"
 import "./layout.css"
 
 const Layout = ({ children }) => (
     <>
-      <div
-        style={{
-            margin: `20px auto 0 auto`,
-            maxWidth: 800,
-            padding: `0px 20px`,
-        }}
-      >
-        <main>{children}</main>
+        <Container>
+            <main style={{padding: `20px 0px`}}>{children}</main>
+        </Container>
         <Footer />
-      </div>
     </>
 )
 
