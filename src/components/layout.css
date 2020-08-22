@@ -17,6 +17,10 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
+::selection{
+    background-color: #219ad4;
+    color: #fff;
+}
 article,
 aside,
 details,
