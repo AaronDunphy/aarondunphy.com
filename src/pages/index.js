@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Header from "../components/header"
+import Hero from "../components/styles/hero"
 
 const IndexPage = (data) => {
 
@@ -25,16 +26,11 @@ const IndexPage = (data) => {
         <Layout>
             <SEO title="Home" />
             <Header />
-            <div style={{textAlign: 'center'}}>
-                <p style={{fontSize: 40, fontWeight: 700, marginBottom: 20}}>Hey, I'm Aaron 👋</p>
-                <h1 style={{
-                    margin: `0 0 5px 0`,
-                    fontSize: 24
-                }}>
-                    Full Stack Developer based in Leigh-on-Sea, UK.
-                </h1>
+            <Hero>
+                <p>Hey, I'm Aaron 👋</p>
+                <h1>Full Stack Developer based in Leigh-on-Sea, UK.</h1>
                 <p>Laravel &amp; JavaScript. Powered by ☕️</p>
-            </div>
+            </Hero>
             <div style={{marginTop: 60}}>
                 { posts }
             </div>
