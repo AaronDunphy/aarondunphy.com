@@ -20,7 +20,6 @@ const AboutPage = (props) => {
         }
         }
     `)
-    console.log('ddd', data)
     return (
         <Layout>
             <SEO title="Home" />
