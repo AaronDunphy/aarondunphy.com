@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -27,9 +27,9 @@ const IndexPage = (data) => {
             <SEO title="Home" />
             <Header />
             <Hero>
-                <p>Hey, I'm Aaron 👋</p>
+                <p>Hey, I'm Aaron <span role="img" aria-label="wave">👋</span></p>
                 <h1>Full Stack Developer based in Leigh-on-Sea, UK.</h1>
-                <p>Laravel &amp; JavaScript. Powered by ☕️</p>
+                <p>Laravel &amp; JavaScript. Powered by <span role="img" aria-label="coffee">☕️</span></p>
             </Hero>
             <div style={{marginTop: 60}}>
                 { posts }

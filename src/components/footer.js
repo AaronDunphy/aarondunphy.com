@@ -15,28 +15,28 @@ const Footer = () => (
         <Container>
             <div style={{textAlign: `center`}}>
                 <div style={{marginBottom: 20}}>
-                    <a href="https://twitter.com/aarondunphy" target="_blank" style ={{
+                    <a href="https://twitter.com/aarondunphy" target="_blank" rel="noreferrer" style ={{
                         color: `#8fa6b2`,
                         fontSize: 24,
                         marginRight: 20
                     }}>
                         <FontAwesomeIcon icon={faTwitter} />
                     </a>
-                    <a href="https://github.com/aarondunphy" target="_blank" style ={{
+                    <a href="https://github.com/aarondunphy" target="_blank" rel="noreferrer" style ={{
                         color: `#8fa6b2`,
                         fontSize: 24,
                         marginRight: 20
                     }}>
                         <FontAwesomeIcon icon={faGithub} />
                     </a>
-                    <a href="https://linkedin.com/in/aarondunphy" target="_blank" style ={{
+                    <a href="https://linkedin.com/in/aarondunphy" target="_blank" rel="noreferrer" style ={{
                         color: `#8fa6b2`,
                         fontSize: 24,
                         marginRight: 20
                     }}>
                         <FontAwesomeIcon icon={faLinkedin} />
                     </a>
-                    <a href="https://instagram.com/aarondunphy" target="_blank" style ={{
+                    <a href="https://instagram.com/aarondunphy" target="_blank" rel="noreferrer" style ={{
                         color: `#8fa6b2`,
                         fontSize: 24,
                     }}>
@@ -44,7 +44,7 @@ const Footer = () => (
                     </a>
                 </div>
                 <p style={{fontSize: 16}}>&copy; Aaron Dunphy { new Date().getFullYear() }</p>
-                <p style={{marginBottom: 0}}>Built with <a href="https://www.gatsbyjs.com/" target="_blank">Gatsby</a> &amp; ☕️</p>
+                <p style={{marginBottom: 0}}>Built with <a href="https://www.gatsbyjs.com/" target="_blank" rel="noreferrer">Gatsby</a> &amp; <span role="img" aria-label="coffee">☕️</span></p>
             </div>
         </Container>
     </footer>
