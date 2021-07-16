@@ -24,7 +24,7 @@ const NavHeader = styled.header`
         text-decoration: none;
         font-size: 18px;
     }
-    @media (max-width: 550px) {
+    @media (max-width: 600px) {
         .logo {
             font-size: 18px;
         }
