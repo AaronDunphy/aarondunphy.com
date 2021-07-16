@@ -16,7 +16,7 @@ const Hero = styled.section`
         margin: 0px 0px 10px 0px;
         font-size: 34px
     }
-    @media (max-width: 480px) {
+    @media (max-width: 560px) {
         p:first-of-type{
             font-size: 30px;
         }
