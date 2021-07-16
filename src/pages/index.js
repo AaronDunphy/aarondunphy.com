@@ -28,8 +28,8 @@ const IndexPage = (data) => {
             <Header />
             <Hero>
                 <p>Hey, I'm Aaron <span role="img" aria-label="wave">👋</span></p>
-                <h1>Full Stack Developer based in <a href="https://www.instagram.com/p/CClAnxTlMH_/" target="_blank">Leigh-on-Sea, UK.</a></h1>
-                <p>Laravel &amp; JavaScript. Powered by <span role="img" aria-label="coffee">☕️</span></p>
+                <h1>Front End Developer based in <a href="https://www.instagram.com/p/CClAnxTlMH_/" target="_blank">Leigh-on-Sea, UK.</a></h1>
+                <p>Powered by <span role="img" aria-label="coffee">☕️</span></p>
             </Hero>
             <div style={{marginTop: 60}}>
                 { posts }
