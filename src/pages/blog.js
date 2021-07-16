@@ -23,7 +23,7 @@ const BlogPage = (data) => {
 
     return (
         <Layout>
-            <SEO title="Home" />
+            <SEO title="Blog" />
             <Header />
             <h1>Blog</h1>
             <div style={{marginTop: 60}}>

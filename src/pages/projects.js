@@ -9,7 +9,7 @@ import ProjectCard from "../components/ProjectCard"
 const ProjectPage = () => {
     return (
         <Layout>
-            <SEO title="Project" />
+            <SEO title="Projects" />
             <Header />
             <Project>
                 

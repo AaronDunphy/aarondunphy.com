@@ -22,7 +22,7 @@ const AboutPage = (props) => {
     `)
     return (
         <Layout>
-            <SEO title="Home" />
+            <SEO title="About" />
             <Header />
             <About>
 
