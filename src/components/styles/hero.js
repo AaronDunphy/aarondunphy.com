@@ -1,15 +1,15 @@
 import styled from "styled-components"
 
 const Hero = styled.section`
-    text-align: center;
     p:first-of-type{
-        font-size: 40px;
+        font-size: 60px;
         font-weight: 700;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
+        line-height: 1;
     }
     h1{
-        margin: 0px 0px 5px 0px;
-        font-size: 24px
+        margin: 0px 0px 10px 0px;
+        font-size: 34px
     }
     @media (max-width: 480px) {
         p:first-of-type{

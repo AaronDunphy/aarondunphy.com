@@ -6,38 +6,38 @@ import { faTwitter, faGithub, faLinkedin, faInstagram } from '@fortawesome/free-
 
 const Footer = () => (
     <footer style={{
-        backgroundColor: '#082333',
+        backgroundColor: 'rgb(243 243 243)',
         margin: `60px 0 0px 0`,
         padding: `6% 0px`,
         fontSize: 14,
-        color: `#8fa6b2`,
+        color: `rgb(76 76 76)`,
     }}>
         <Container>
             <div style={{textAlign: `center`}}>
                 <div style={{marginBottom: 20}}>
                     <a href="https://twitter.com/aarondunphy" target="_blank" rel="noreferrer" style ={{
-                        color: `#8fa6b2`,
+                        color: `rgb(76 76 76)`,
                         fontSize: 24,
                         marginRight: 20
                     }}>
                         <FontAwesomeIcon icon={faTwitter} />
                     </a>
                     <a href="https://github.com/aarondunphy" target="_blank" rel="noreferrer" style ={{
-                        color: `#8fa6b2`,
+                        color: `rgb(76 76 76)`,
                         fontSize: 24,
                         marginRight: 20
                     }}>
                         <FontAwesomeIcon icon={faGithub} />
                     </a>
                     <a href="https://linkedin.com/in/aarondunphy" target="_blank" rel="noreferrer" style ={{
-                        color: `#8fa6b2`,
+                        color: `rgb(76 76 76)`,
                         fontSize: 24,
                         marginRight: 20
                     }}>
                         <FontAwesomeIcon icon={faLinkedin} />
                     </a>
                     <a href="https://instagram.com/aarondunphy" target="_blank" rel="noreferrer" style ={{
-                        color: `#8fa6b2`,
+                        color: `rgb(76 76 76)`,
                         fontSize: 24,
                     }}>
                         <FontAwesomeIcon icon={faInstagram} />

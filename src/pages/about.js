@@ -25,11 +25,12 @@ const AboutPage = (props) => {
             <SEO title="Home" />
             <Header />
             <About>
-                <h1>About</h1>
 
                 <div className="profileImage">
                     <Img fluid={data.placeholderImage.childImageSharp.fluid} />
                 </div>
+
+                <h1>Hey, I'm Aaron!</h1>
 
                 <p>I'm a full stack developer based in <a href="https://en.wikipedia.org/wiki/Leigh-on-Sea" target="_blank" rel="noreferrer">Leigh-on-Sea</a>, UK. I have a passion for coding and get most enjoyment from solving problems with writing elegant/maintainable code and sharing knowledge. I love learning so I'm always keeping up to date by watching conference talks, listening to <Link to="/blog/my-top-5-tech-podcasts-2020">podcasts</Link> and reading blog posts.</p>
                 
