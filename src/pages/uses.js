@@ -16,10 +16,12 @@ const UsesPage = () => (
         <ul>
             <li>VS Code</li>
             <li>iTerm 2</li>
+            <li>Postman</li>
             <li>Table Plus</li>
             <li>Laravel Valet</li>
-            <li>Last Pass</li>
+            <li>Docker</li>
             <li>Homebrew</li>
+            <li><a href="https://magnet.crowdcafe.com/" target="_blank">Magnet</a></li>
             <li>Google Chrome</li>
         </ul>
 
