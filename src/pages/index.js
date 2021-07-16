@@ -27,13 +27,17 @@ const IndexPage = (data) => {
             <SEO title="Home" />
             <Header />
             <Hero>
-                <p>Hey, I'm Aaron <span role="img" aria-label="wave">👋</span></p>
-                <h1>Front End Developer based in <a href="https://www.instagram.com/p/CClAnxTlMH_/" target="_blank">Leigh-on-Sea, UK.</a></h1>
-                <p>Powered by <span role="img" aria-label="coffee">☕️</span></p>
+                <div className="hero">
+                    <div>
+                        <p>Hey, I'm Aaron <span role="img" aria-label="wave">👋</span></p>
+                        <h1>Front End Developer based in <a href="https://www.instagram.com/p/CClAnxTlMH_/" target="_blank">Leigh-on-Sea, UK.</a></h1>
+                        <p>Powered by <span role="img" aria-label="coffee">☕️</span></p>
+                    </div>
+                </div>
             </Hero>
-            <div style={{marginTop: 60}}>
+            {/* <div style={{marginTop: 60}}>
                 { posts }
-            </div>
+            </div> */}
         </Layout>
     )
 }

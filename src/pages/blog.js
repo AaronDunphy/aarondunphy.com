@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Header from "../components/header"
+import Blog from "../components/styles/blog"
 
 const BlogPage = (data) => {
 
@@ -25,10 +26,17 @@ const BlogPage = (data) => {
         <Layout>
             <SEO title="Blog" />
             <Header />
-            <h1>Blog</h1>
-            <div style={{marginTop: 60}}>
+            <Blog>
+                <div class="blogContainer">
+                    <div>
+                        <h1>Blog</h1>
+                        <p>Coming Soon!</p>
+                    </div>
+                </div>
+            </Blog>
+            {/* <div style={{marginTop: 60}}>
                 { posts }
-            </div>
+            </div> */}
         </Layout>
     )
 }

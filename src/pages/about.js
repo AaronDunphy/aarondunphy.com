@@ -11,7 +11,7 @@ import About from "../components/styles/about"
 const AboutPage = (props) => {
     const data = useStaticQuery(graphql`
         query {
-        placeholderImage: file(relativePath: { eq: "aarondunphy.png" }) {
+        placeholderImage: file(relativePath: { eq: "aarondunphy.jpg" }) {
             childImageSharp {
             fluid(maxWidth: 300) {
                 ...GatsbyImageSharpFluid

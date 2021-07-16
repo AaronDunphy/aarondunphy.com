@@ -1,6 +1,11 @@
 import styled from "styled-components"
 
 const Hero = styled.section`
+    .hero{
+        display: flex;
+        align-items: center;
+        min-height: 40vh;   
+    }
     p:first-of-type{
         font-size: 60px;
         font-weight: 700;
